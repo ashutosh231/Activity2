@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             
+        body{
+            background-color: rgb(228, 225, 243);
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+        }
+        .header{
+            background-color: #52b050;
+            color:white;
+            padding:15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .navbar{
+            display:flex;
+            justify-content: center;
+            background-color: #52b050;
+            padding:10px 0;
+        }
+        .navbar a{
+            color:white;
+            padding:10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            color:#52b050;
+            animation: 0.2s;
+        }
+        .container{
+            display: flex;
+            width:80%px;
+            margin:20px auto;
+            flex-wrap: wrap;
+            gap:200px;
+            justify-content: space-evenly;
+        }
+        .box{
+            background-color: white;
+            padding:20px 30px;
+            padding-right:20px;
+            margin:20px;
+            flex:1 1 300px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            justify-content: space-evenly;
+            
+        }
+        .box h2{
+            color:#52b050;
+            box-sizing: content-box;
+        }
+        .footer{
+            background-color: #333;
+            color:white;
+            text-align: center;
+            padding:15px;
+            margin-top: 45px;
+        }
+        .footer a{
+            color:#52b050;
+            text-decoration: none;
+            margin:0 10px;
+        }
+        #box-3{
+            margin-right: 910px;
+            white-space: 10px;
+            margin-top: -12%;
+        }
+        #box-2{
+            margin-left: 100px;
+        }
+        #box-1{
+            margin-right:50px;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <div class="header">
+                <b>Welcome to Your Website Task</b>
+            </div>
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box" id="box-1">
+                <article>
+                    <h2>About CSS</h2>
+                    <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+                </article>
+            </div>
+            <div class="box" id="box-2">
+                <article>
+                    <h2>Box Model</h2>
+                    <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p>
+                </article>
+            </div>
+            <div class="box" id="box-3">
+                <article>
+                    <h2>Responsive Design</h2>
+                    <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+                </article>
+            </div>
+        </div>
+        <div class="footer">
+            Created by Ashutosh Kumar | Follow us on 
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a>
+        </div>
+</body>
+</html>
